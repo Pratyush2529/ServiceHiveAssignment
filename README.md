@@ -2,6 +2,10 @@
 
 GigFlow is a full-stack platform where clients can post jobs and freelancers can bid on them. It features secure authentication, real-time notifications, and high transactional integrity for the hiring process.
 
+## 🎥 Demo Video
+
+Watch the application in action: [GigFlow Demo](https://www.loom.com/share/6c799e708ccb456db87d4d943578426a)
+
 ## Features
 
 - **🛡️ Secure Authentication**: JWT-based auth with HttpOnly cookies.
