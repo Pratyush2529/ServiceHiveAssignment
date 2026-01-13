@@ -4,7 +4,7 @@ GigFlow is a full-stack platform where clients can post jobs and freelancers can
 
 ## 🎥 Demo Video
 
-Watch the application in action: [GigFlow Demo](https://www.loom.com/share/6c799e708ccb456db87d4d943578426a)
+Hiring workflow demo: [GigFlow Demo](https://www.loom.com/share/6c799e708ccb456db87d4d943578426a)
 
 ## Features
 
