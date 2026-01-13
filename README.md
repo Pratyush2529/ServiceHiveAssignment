@@ -9,11 +9,11 @@ GigFlow is a full-stack platform where clients can post jobs and freelancers can
 - **📈 Bidding System**: Freelancers can submit proposals and prices.
 - **🤝 Strategic Hiring**: Clients review bids and hire freelancers using MongoDB Transactions (Atomic updates).
 - **🔔 Real-time Notifications**: Instant updates when you're hired, powered by Socket.io.
-- **💎 Premium UI**: Modern, responsive design with Tailwind CSS and Framer Motion.
+- **💎 Premium UI**: Modern, responsive design with Tailwind CSS.
 
 ## Technical Stack
 
-- **Frontend**: React.js, Vite, Tailwind CSS, Redux Toolkit, Lucide React, Framer Motion.
+- **Frontend**: React.js, Vite, Tailwind CSS, Redux Toolkit, Lucide React.
 - **Backend**: Node.js, Express.js, MongoDB (Mongoose), Socket.io.
 - **State Management**: Redux Toolkit for Auth and Gigs.
 - **Real-time**: Socket.io for notifications.
