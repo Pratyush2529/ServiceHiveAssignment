@@ -16,8 +16,8 @@ const ClientDashboard = () => {
         const fetchData = async () => {
             try {
                 const [gigRes, bidsRes] = await Promise.all([
-                    axios.get(`http://localhost:5000/api/gigs/${gigId}`),
-                    axios.get(`http://localhost:5000/api/bids/${gigId}`)
+                    axios.get(`${import.meta.env.VITE_API_URL}/api/gigs/${gigId}`),
+                    axios.get(`${import.meta.env.VITE_API_URL}/api/bids/${gigId}`)
                 ]);
                 setGig(gigRes.data.data.gig);
                 setBids(bidsRes.data.data.bids);
@@ -36,7 +36,7 @@ const ClientDashboard = () => {
 
         setHiringId(bidId);
         try {
-            await axios.patch(`http://localhost:5000/api/bids/${bidId}/hire`);
+            await axios.patch(`${import.meta.env.VITE_API_URL}/api/bids/${bidId}/hire`);
             toast.success('Hiring complete! The freelancer has been notified.');
             navigate('/');
         } catch (error) {

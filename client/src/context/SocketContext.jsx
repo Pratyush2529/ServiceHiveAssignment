@@ -9,7 +9,7 @@ export const useSocket = () => useContext(SocketContext);
 
 export const SocketProvider = ({ children }) => {
     const { user } = useSelector((state) => state.auth);
-    const socket = io('http://localhost:5000', {
+    const socket = io(import.meta.env.VITE_API_URL, {
         withCredentials: true,
         autoConnect: false
     });

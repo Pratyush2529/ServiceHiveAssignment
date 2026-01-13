@@ -31,7 +31,7 @@ const BidModal = ({ gig, isOpen, onClose }) => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post('http://localhost:5000/api/bids', {
+      await axios.post(`${import.meta.env.VITE_API_URL}/api/bids`, {
         gigId: gig._id,
         ...formData
       });
